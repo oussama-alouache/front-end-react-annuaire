@@ -4,18 +4,20 @@ import React, { Component } from "react";
 export class Register extends Component {
   render() {
     return (
-      <div>
-          <div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
-    <form>
+   
+    <form className="register-form">
         <h3>Login Here</h3>
 
-        <label for="username">Username</label>
+        <label htmlFor="username">Username</label>
         <input type="text" placeholder="Email or Phone" id="username"></input>
 
-        <label for="password">Password</label>
+        <label htmlFor="email">email</label>
+        <input type="email" placeholder="Email" id="email"></input>
+        <label htmlFor="password">Password</label>
+        <input type="password" placeholder="Password" id="password"></input>
+        <label htmlFor="password">Password</label>
+        <input type="password" placeholder="Password" id="password"></input>
+        <label htmlFor="password">Password</label>
         <input type="password" placeholder="Password" id="password"></input>
 
         <button className="btn-login">Log In</button>
@@ -25,7 +27,7 @@ export class Register extends Component {
 
 
 				 
-			</div>
+		
        
      
     )

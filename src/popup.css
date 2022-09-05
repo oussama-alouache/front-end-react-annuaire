@@ -15,7 +15,7 @@
     padding: 32px;
     width: 100%;
     max-width: 640px;
-    background-color: aliceblue;
+    background-color: rgb(252, 252, 252);
 }
 .popup-inner .close-btn{
     position: absolute;
