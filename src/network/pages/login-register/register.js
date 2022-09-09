@@ -20,7 +20,10 @@ export class Register extends Component {
         <input className="input-register" type="password" placeholder="Password" id="password"></input>
         <label htmlFor="password"> conforme Password</label>
         <input className="input-register" type="password" placeholder=" conforme Password" id="password"></input>
+        <label htmlFor="email">profil picture</label>  
+        <input className="input-register" type="file" placeholder="image" id="image"  accept="image/png, image/jpeg"></input>
         <label htmlFor="email">role</label>  
+
         <select className="input-register" name=" optionlist " >
         <option>chose a role....</option>
         <option>ceo</option>
