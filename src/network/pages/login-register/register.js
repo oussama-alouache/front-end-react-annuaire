@@ -7,7 +7,7 @@ export class Register extends Component {
    
     <form className="register-form">
       <div className="head-register" >
-      <h3>Login Here</h3>
+      <h3>register</h3>
       </div>
        
 
